@@ -91,7 +91,7 @@ That's it, you are done! Expect an email next week!
 9. [Deploy to production](#10-deploy-to-production)
 
 ### Part III - Working with AstraDB and the GraphQL API
-1. [Connecting the Database](#11-connecting-the-database)
+1. [Serverless Configuration](#11-connecting-the-database)
 
 ### Extra resources
 [What is JamStack?](jamstack.md)
