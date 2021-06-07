@@ -69,14 +69,15 @@ That's it, you are done! Expect an email next week!
 ## Table of contents
 
 ### Part I - DB Setup & Data Ingest
-1. [Create AstraDB Instance](#2-create-astra-instance)
-2. [Create a security token](#3-create-a-security-token)
-3. [Create table **genre** with GraphQL](#4-create-table-genre-with-graphql)
-4. [Insert data in **genre**  with GraphQL](#5-insert-data-in-the-table-with-graphql)
-5. [Retrieve values of **genre** table](#6-retrieving-list-of-values)
-6. [Create **movie** table](#7-creating-a-movies-table)
-7. [Insert values in **movie** table](#8-insert-values-in-movie-table)
-8. [Retrieve values from **movie** table](#9-retrieve-values-from-movie-tables)
+1. [Create AstraDB Instance](#1-login-or-register-to-astradb-and-create-database)
+2. [Create a security token](#2-create-a-security-token)
+3. [Create table **genre** with GraphQL](#3-create-table-genre-with-graphql)
+4. [Insert data in **genre**  with GraphQL](#4-insert-data-in-the-table-with-graphql)
+5. [Retrieve values of **genre** table](#5-retrieving-list-of-values)
+6. [Create **movie** table](#6-creating-a-movies-table)
+7. [Insert values in **movie** table](#7-insert-values-in-movie-table)
+8. [Retrieve values from **movie** table](#8-retrieve-values-from-movie-tables)
+9. [Load a CSV DataSet](#9-load-a-csv-dataset)
 
 ###  Part II - Deploy to Production
 1. [Deploy to Netlify](#2-deploy-to-netlify)
@@ -434,6 +435,31 @@ voila !
 <br/>
 <br/>
 <br/>
+
+## 9. Load a CSV DataSet
+
+✅ **Step 9a: Download the dataset**
+
+To download the DATASET, right-click (or CTRL + Click to open in new tab) the button below and download the targat file on your machine.
+
+> *If the file open in the browser save it with the name `movies.csv`. This is important as the filename will be the table name.*
+
+<p align="left">
+<a href="https://raw.githubusercontent.com/datastaxdevs/workshop-graphql-netflix/main/dataset/movies.csv">
+ <img src="https://dabuttonfactory.com/button.png?t=Download Dataset&f=Roboto-Bold&ts=20&tc=fff&hp=20&vp=15&c=11&bgt=unicolored&bgc=15d798" />
+</a>
+</p>
+
+✅ **Step 9b: Open Astra Data Loader**
+
+![image](tutorial/images/import-movies-1.png?raw=true)
+
+![image](tutorial/images/import-movies-2.png?raw=true)
+
+![image](tutorial/images/import-movies-3.png?raw=true)
+
+
+✅ **Step 9c: Open Astra Data Loader**
 
 
 # Part 2 - Deploy to Production
